@@ -5,8 +5,10 @@ Defaut New v1.2
 
 
 ************************* IMPORTANT**************************
+
 you need to have a reserver driver in your list even if you don't use them there a bug and waiting for fix so set a aaaaa driver as a reserve
-*******************************************************************
+
+
 ---------------------------------------------------------------------
 New in 1.2
 Reserve driver list in two collums !
