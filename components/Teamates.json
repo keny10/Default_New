@@ -1,0 +1,150 @@
+{
+
+    "BlockType": "stack", 
+    "Height": 320,
+    "Width":500,
+    "MarginRight":0,
+    "BackgroundImage": "images/team/{Item.Team.Name}bg.png",
+    "Items": [
+        //left part
+        
+        {
+            "BlockType": "stack",                    
+            "HorizontalAlignment": "Left",
+            "MarginLeft": 10,
+            "Orientation": "Vertical",
+            "Items": [
+                {
+                    "BlockType": "stack",                    
+                    "HorizontalAlignment": "Left",
+                    "MarginLeft": 5,
+                    "Orientation": "Horizontal",
+                    "Items": [
+                                //name
+                                {
+                                    "BlockType": "text",
+                                    "MinWidth": 400,
+                                    "MarginRight": 12,   
+                                    "Source": "{Item.Driver.RealName, Converter=StringToUpperString}",
+                                    "HorizontalAlignment": "Left",
+                                    "VerticalAlignment": "Center",
+                                    "FontName": "Formula1-Bold.ttf",
+                                    "Foreground" :"FFFFFF",
+                                    "FontSize": "25",
+                                },
+                                //flag
+                                {
+                                    "BlockType": "image",
+                                    "Height": 30,
+                                    "VerticalAlignment": "Center",
+                                    "ImageOptions": {
+                                        "Path": "{Item.Driver.Nationality.LogoPath}",
+                                        "VerticalAlignment": "Center"
+                                    }
+                                }
+                            ]
+                },
+                
+                {
+                    "BlockType": "text",
+                    "MinWidth": 400,    
+                    "Source": "{Item.Driver.Name, Converter=StringToUpperString}",
+                    "HorizontalAlignment": "Left",
+                    "VerticalAlignment": "Center",
+                    "FontName": "{FontNameDefault}",
+                    "Foreground" :"fff",
+                    "FontSize": "15",
+                },
+
+        // Victory
+        {
+            "BlockType": "dock",
+            "HorizontalAlignment": "Right",
+            "MarginLeft": 5,
+            "Orientation": "Horizontal",
+            "Items": [
+                {
+                    "BlockType": "text",
+                    "MinWidth": 400,
+                    "Source": "{Item.CountP1}",
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Center",
+                    "FontName": "{FontNameDefault}",
+                    "Foreground": "FFFFFF",
+                    "FontSize": "20",
+                },
+                //logo
+                {
+                    "BlockType": "shape",
+                    "Height": 28,
+                    "Width": "75",
+                    "MarginLeft": 10,
+                    //"VerticalAlignment": "Center",
+                    "ShapeOptions": {
+                        "ShapeType": "rectangle",
+                        "Fill": "fefefe"
+                    }
+                }
+            ]
+        },
+        // Pole
+        {
+            "BlockType": "stack",
+            "HorizontalAlignment": "Left",
+            "MarginLeft": 5,
+            "Orientation": "Horizontal",
+            "Items": [
+                {
+                    "BlockType": "text",
+                    "MinWidth": 400,
+                    "Source": "{Item.CountQualP1}",
+                    "HorizontalAlignment": "Left",
+                    "VerticalAlignment": "Center",
+                    "FontName": "{FontNameDefault}",
+                    "Foreground": "FFFFFF",
+                    "FontSize": "20",
+                },
+                //logo
+                {
+                    "BlockType": "shape",
+                    //"MarginLeft" : 5,
+                    "Height": 28,
+                    "Width": "75",
+                    //"MarginRight": 10,
+                    //"VerticalAlignment": "Center",
+                    "ShapeOptions": {
+                        "ShapeType": "rectangle",
+                        "Fill": "fefefe"
+                    }
+                }
+            ]
+        },
+            ]
+        },
+
+                
+        //right part
+        
+        {
+            "BlockType": "dock",                    
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Top",
+            //"Orientation": "Horizontal",
+            "Opacity": "75",
+            "Items": [
+                //number
+                {
+                    "BlockType": "text",
+                    "Source": "{Item.Index, Converter=StringToUpperString}",
+                    "HorizontalAlignment": "Right",
+                    "MarginRight": 50,
+                    "VerticalAlignment": "Center",
+                    "FontName": "{FontNameDefault}",
+                    "Foreground" :"fff",
+                    "FontSize": 20,
+                }
+                          
+            ]
+        }
+    ]
+}
