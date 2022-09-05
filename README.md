@@ -5,13 +5,16 @@ Racing League Tools Theme
 ![preview](https://user-images.githubusercontent.com/880169/187782247-38a1ec57-f2a6-4493-b441-bf063c94573d.png)
 
 
-Defaut New v1.2
+Defaut New v1.3
+
 
 
 ************************* IMPORTANT**************************
 
 you need to have a reserver driver in your list even if you don't use them there a bug and waiting for fix so set a aaaaa driver as a reserve
 
+New in 1.3
+Minor fixes 
 
 ---------------------------------------------------------------------
 New in 1.2
