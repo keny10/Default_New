@@ -11,6 +11,7 @@
     "MarginTable" : "0, 0",
 
     //colors
+    "ForegroundWhithe":"#FFFFFF",
     "ForegroundDarker" : "#FF969696",
     "TableColumnHeaderForeground" : "#AABBBBBB",
     "PenaltyTimeGameForeground" : "#BB7373",
@@ -32,11 +33,7 @@
     "SeasonProgressPositionTop1Foregound" : "#DDDD11",
     "SeasonProgressPointsForeground" : "#AFAFAF",
     "SeasonProgressPointsZeroForeground" : "#666666",
-    "SeasonProgressPointsTopForeground" : "#C2C2C2"
-
-
-
-
-    
-
+    "SeasonProgressPointsTopForeground": "#C2C2C2",
+    "PodiumRapido": "2",
+    "PodiumSpoon": "1"
 }

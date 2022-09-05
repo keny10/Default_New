@@ -3,6 +3,8 @@
     "Name": "headerBlock",
     "BlockType": "dock",
     "Orientation": "Horizontal",
+    "Padding": "22, 10, 22, 0",
+    "Width":"*",
     "Items": [
         //headerLeft
         {
