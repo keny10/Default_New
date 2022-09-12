@@ -1,3 +1,7 @@
+Only compatible with 0.7.4 and lower 
+for 0.7.5 and up use New Lineup
+
+
 # Default_New
 Racing League Tools Theme
 
